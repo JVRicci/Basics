@@ -1,6 +1,6 @@
 
 
-# Criação de models: dentro de schema.prisma
+###  Criação de models: dentro de schema.prisma
 model nomeTabela{
 	id		String @id @default (uuid())
 	title		String
@@ -8,11 +8,11 @@ model nomeTabela{
 }
 
 
-#Criar e rodas migrations
+### Criar e rodas migrations
 npx prisma migrate dev 
 
-# Com isso, no terminal irá solicitar o nome da operação. Ex:
+###  Com isso, no terminal irá solicitar o nome da operação. Ex:
 create table nomeTabela
 
-#Abrir interface da DB do prisma
+### Abrir interface da DB do prisma
 npx prima studio
