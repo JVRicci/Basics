@@ -1,23 +1,23 @@
-## No arquivo server.ts
-###Importar fastify (responsavel pelas rotas da API)
+# No arquivo server.ts
+##Importar fastify (responsavel pelas rotas da API)
 
 import Fastify from 'fastify'
 
 ##Import da ORM prisma para operaçõs com BD
 import {PrismaClient} from '@prisma/client'
 
-###Importar cors para segurança
+##Importar cors para segurança
 import cors from '@fastify/cors'
 
 
-###Instanciar variavel responsavel pela criação das rotas
+##Instanciar variavel responsavel pela criação das rotas
 
 const app = Fastify()
 
-###Instanciar variavel responsavel pelas operações com o/a BD - ORM
+##Instanciar variavel responsavel pelas operações com o/a BD - ORM
 const prisma = new PrismaClient()
 
-###Setar quais aplicações podem acessar a API
+##Setar quais aplicações podem acessar a API
 app.register(cors, {
 	origin: ['http:#localhost:3333']
 })
