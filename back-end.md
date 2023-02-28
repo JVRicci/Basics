@@ -1,5 +1,5 @@
 # No arquivo server.ts
-## Importar fastify (responsavel pelas rotas da API)
+### Importar fastify (responsavel pelas rotas da API)
 
 import Fastify from 'fastify'
 
