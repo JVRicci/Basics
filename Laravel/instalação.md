@@ -22,5 +22,8 @@
 
     php artisan serve
 
+### Terminal do php para comandos e Base de Dados
+
+    php artisan tinker
 
 #### Obs: Sempre observar se a variavel de ambiente do php está correta
