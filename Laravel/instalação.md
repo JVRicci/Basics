@@ -12,10 +12,15 @@
 
     composer i --ignore-platform-reqs
 
+## Instalar Debugbar
+
+    composer require barryvdh/laravel-debugbar --dev
+
 ## Assim que estiver tudo pronto:
 ### Criar arquivo .env e alterar o nome do bando, login e senha de acesso
 ### Assim que estiver tudo pronto, utilizar o seguinte comando para rodar as migrations
 
+    php artisan key:generate
     php artisan migrate
 
 ### Para Startar
@@ -25,5 +30,6 @@
 ### Terminal do php para comandos e Base de Dados
 
     php artisan tinker
+
 
 #### Obs: Sempre observar se a variavel de ambiente do php está correta
