@@ -1,8 +1,10 @@
 ## Passos iniciais
 
-    npm i
     composer update
     composer install
+    
+    npm install
+    npm run dev
 
 ## Para iniciar o projeto é necessário antes usar o seguinte comando 
 
