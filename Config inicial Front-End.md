@@ -1,6 +1,6 @@
 ### Iniciar projeto com vite
-### Cria o projeto como vanilla, ou com frameworks e libs como React e Vue
-### Possibilidade de criar projeto em branco, ou com inicio em TS ou JS
+#### Cria o projeto como vanilla, ou com frameworks e libs como React e Vue
+#### Possibilidade de criar projeto em branco, ou com inicio em TS ou JS
 
 	npm create vite@latest
 
