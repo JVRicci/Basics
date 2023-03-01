@@ -1,4 +1,11 @@
 
+## Configuração inial do prisma para o editor
+### Pressionando o ctrl + t, no preferences.json, adcionar as seguintes linhas
+
+	"[prisma]": {
+	"editor.defaultFormatter": "Prisma.prisma"
+	},
+
 
 ###  Criação de models: dentro de schema.prisma
 
