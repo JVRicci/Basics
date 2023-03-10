@@ -36,3 +36,7 @@
 		'./src/**/*.tsx',
 		'./index.html'
 	}
+
+### Lib para icones do react
+
+	npm i phosphor-react

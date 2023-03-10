@@ -20,3 +20,6 @@
 
     ctrl + t
 
+## Auto Formatação (Identação)
+
+    Shift + alt + F
