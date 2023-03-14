@@ -11,6 +11,12 @@
 
 	npx tailwind init -p
 
+## Instalar Lib para ferramentas como Modals, Popovers dentre outros
+
+	npm install @radix-ui/react-dialog
+	npm install @radix-ui/react-dropdown-menu
+	npm install @radix-ui/react-tooltip
+
 ### Instala de fato as dependencias
 
 	npm install

@@ -3,19 +3,33 @@
 
     npx create-expo-app --template
 
+### Instalar tailwind
+
+    npm i nativewind
+    npm i --save-dev tailwindcss
+
+    npx tailwindcss init
+
 ### Instala o Client do expo que possibilita rodar a aplicação
 
     npm i expo-cli -g
     npm i @expo/webpack-config@^0.17.2
 
-### Start project
+### Para leitura de SVG
 
-    npx expo start
+    npm i react-native-svg
+    npx expo i react-native-svg
+    npm i react-native-svg-transformer
+
+### Para debug no navegador Web
+
+    npx expo install react-native-web@~0.18.10 react-dom@18.2.0 @expo/webpack-config@^18.0.1
 
 ### Instalar no projeto fonts do google
 
     npx expo install expo-font @expo-google-fonts/inter
 
-### Para debug no navegador Web
+### Start project
 
-    npx expo install react-native-web@~0.18.10 react-dom@18.2.0 @expo/webpack-config@^18.0.1
+    npx expo start --clear
+
