@@ -25,6 +25,16 @@
 
 	npx prisma init --datasource-provider SQLite
 
+### Manipulação de datas
+
+	npm i dayjs
+
+
+### Instalção do Radix para criação de ferramentas como popover, modal, etc
+
+	npm install @radix-ui/react-dialog
+	npm install @radix-ui/react-dropdown-menu
+	npm install @radix-ui/react-tooltip
 
 ### Criar pasta src dentro da pasta do projeto e Criar arquivo server.ts
 

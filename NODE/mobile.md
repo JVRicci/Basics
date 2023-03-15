@@ -33,3 +33,8 @@
 
     npx expo start --clear
 
+### Para menus de navegação
+
+    npm i @react-navigation/native
+    npx expo install react-native-screens react-native-safe-area-context
+    npm i @react-navigation/native-stack

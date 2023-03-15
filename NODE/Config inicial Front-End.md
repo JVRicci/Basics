@@ -17,11 +17,7 @@
 	npm install @radix-ui/react-dropdown-menu
 	npm install @radix-ui/react-tooltip
 
-## Lib que permite condicionais com style. Ex: 
-#### className={clsx('w-10 h-10 bg-zinc-900 border-2 border-zinc-800 rounded-lg',
-#### {
-####	'bg-violet-900 border-zinc-800': completedPercentage === 0,
-#### }}
+## Lib que permite condicionais com style. 
 
 	npm i clsx
 
