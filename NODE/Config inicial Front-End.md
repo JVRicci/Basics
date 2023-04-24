@@ -11,11 +11,6 @@
 
 	npx tailwind init -p
 
-## Instalar Lib para ferramentas como Modals, Popovers dentre outros
-
-	npm install @radix-ui/react-dialog
-	npm install @radix-ui/react-dropdown-menu
-	npm install @radix-ui/react-tooltip
 
 ## Lib que permite condicionais com style. 
 
@@ -50,3 +45,15 @@
 ### Lib para icones do react
 
 	npm i phosphor-react
+
+
+### Instalção do Radix para criação de ferramentas como popover, modal, etc
+
+	npm install @radix-ui/react-dialog
+	npm install @radix-ui/react-dropdown-menu
+	npm install @radix-ui/react-tooltip
+
+
+## Instalar clerk para authentication no sistema
+
+	npm install @clerk/clerk-js

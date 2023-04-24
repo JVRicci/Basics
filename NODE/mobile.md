@@ -3,11 +3,12 @@
 
     npx create-expo-app --template
 
+## Acesse a pasta e então prossiga
+
 ### Instalar tailwind
 
     npm i nativewind
     npm i --save-dev tailwindcss
-
     npx tailwindcss init
 
 ### Instala o Client do expo que possibilita rodar a aplicação
@@ -28,6 +29,11 @@
 ### Instalar no projeto fonts do google
 
     npx expo install expo-font @expo-google-fonts/inter
+    
+### Lib Para icons
+
+    import {Feather} from '@expo/vector-icons'  
+
 
 ### Start project
 
@@ -38,3 +44,4 @@
     npm i @react-navigation/native
     npx expo install react-native-screens react-native-safe-area-context
     npm i @react-navigation/native-stack
+

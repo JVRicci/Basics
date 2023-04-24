@@ -1,4 +1,23 @@
-## Passos iniciais
+## Passos inicias para criação de projetos
+
+    composer create-project laravel/laravel NOME_DO_PROJETO
+
+## Scafolding de Auth do UI
+
+    composer require laravel/ui  
+    php artisan ui react
+    php artisan ui react --auth   
+
+    npm i --force
+    npm run dev
+
+## Gerar BD
+
+Altere o nome do BD no .env, e depois rode o comando
+
+    php artisan migrate
+
+## Passos iniciais para projeto já existente
 
     composer update
     composer install
@@ -6,7 +25,7 @@
     npm install
     npm run dev
 
-## Para iniciar o projeto é necessário antes usar o seguinte comando 
+## Para iniciar o projeto é necessário antes usayr o seguinte comando 
 
     composer dump-autoload
 
