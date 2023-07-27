@@ -37,9 +37,8 @@
 	image_index = 2
 
 ##instance_create_layer
-### Basicamente ele da uma sensação de desfoque e repetição de algum objeto
-### Comunmente utilizado para gerar sensação de velocidade
-
+### ELe cria um objeto baseado no ponto x e y de um outro obj
+### Utilizado para criar hitboxes
 
 	var _inst = instance_create_layer( x , y, "Instances", obj_dash)
 	_inst.sprite_index = sprite_index;
