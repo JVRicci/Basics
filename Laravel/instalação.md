@@ -25,7 +25,7 @@ Altere o nome do BD no .env, e depois rode o comando
     npm install
     npm run dev
 
-## Para iniciar o projeto é necessário antes usayr o seguinte comando 
+## Para iniciar o projeto é necessário antes usar o seguinte comando 
 
     composer dump-autoload
 
@@ -38,7 +38,7 @@ Altere o nome do BD no .env, e depois rode o comando
     composer require barryvdh/laravel-debugbar --dev
 
 ## Assim que estiver tudo pronto:
-### Criar arquivo .env e alterar o nome do bando, login e senha de acesso
+### Criar arquivo .env e alterar o nome do banco, login e senha de acesso
 ### Assim que estiver tudo pronto, utilizar o seguinte comando para rodar as migrations
 
     php artisan key:generate
