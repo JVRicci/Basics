@@ -54,3 +54,9 @@ Altere o nome do BD no .env, e depois rode o comando
 
 
 #### Obs: Sempre observar se a variavel de ambiente do php está correta
+
+
+##### Criar scaffolding jetstream para auth dentre outros
+
+    composer require laravel/jetstream
+    php artisan jetstream:install livewire --teams

@@ -33,7 +33,7 @@
 
 ### Dentro de app.tsx
 
-	mport './styles/global.css'
+	import './styles/global.css'
 
 ### Dentro de tailwind.config. Isso indica os arquivos que leem o tailwind
 
@@ -57,3 +57,23 @@
 ## Instalar clerk para authentication no sistema
 
 	npm install @clerk/clerk-js
+
+## Usando Axios para requisição
+#### Inicialmente é necessário intalar a lib
+
+	npm i axios
+
+#### Após isso, basta criar uma pasta chamada lib (a qual é util para armazenar arquivos relacionados a libs, n somente axios)
+#### Dentro dessa pasta, deve ser criado um arquivo chamado axios com a seguinte configuração
+
+	import axios from "axios"
+
+	export const api = axios.create({
+		baseURL: 'http://nomeDaUrl:3333'
+	})
+
+#### Para utlizar, basta importar o arquivo com
+
+	import { api } from '../lib/axios'
+
+#### A variavel api terá acesso a comandos como get, post, etc. *Ver na documentação*

@@ -45,3 +45,17 @@
     npx expo install react-native-screens react-native-safe-area-context
     npm i @react-navigation/native-stack
 
+### Para requisições de API externa
+
+    npm i axios
+
+##### Criar arquivo na pasta lib, chamado axios.ts
+
+    import axios from 'axios'
+
+    export const api = axios.create({
+        baseURL: 'http://10.0.2.2:3333'
+    })
+
+##### Obs: esse ip da url varia, é necessário verificar quando for iniciar o projeto
+##### Em caso de desenvolvimento obviamente
