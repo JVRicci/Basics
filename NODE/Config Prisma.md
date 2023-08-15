@@ -39,7 +39,7 @@ Pressionando o ctrl + t, no preferences.json, adcionar as seguintes linhas
 
 ### Abrir interface da DB do prisma
 
-	npx prima studio
+	npx prisma studio
 
 
 ### Preencher a base de dados com seed
