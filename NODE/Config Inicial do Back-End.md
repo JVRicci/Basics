@@ -33,37 +33,41 @@
 
 # Criação do server, rotas e aplicações
 
-### Criar pasta src dentro da pasta do projeto e Criar arquivo server.ts
+Criar pasta src dentro da pasta do projeto e Criar arquivo server.ts
 
 
-### No arquivo package.json
-### Na linha dev, dentro de scripts, alterar a linha para
+No arquivo package.json
+Na linha dev, dentro de scripts, alterar a linha para
 
 	"scripts": {
 		"dev":"tsx watch src/server.ts"
 	}
 
+* * *
+
 # No arquivo server.ts
-### Importar fastify (responsavel pelas rotas da API)
+Importar fastify (responsavel pelas rotas da API)
 
 	import Fastify from 'fastify'
 
-### Import da ORM prisma para operaçõs com BD
+Import da ORM prisma para operaçõs com BD
 
 	import {PrismaClient} from '@prisma/client'
 
-### Importar cors para segurança
+Importar cors para segurança
 
 	import cors from '@fastify/cors'
 
 
-### Instanciar variavel responsavel pela criação das rotas
+Instanciar variavel responsavel pela criação das rotas
 
 	const app = Fastify()
 
-### Instanciar variavel responsavel pelas operações com o/a BD - ORM
+Instanciar variavel responsavel pelas operações com o/a BD - ORM
 
 	const prisma = new PrismaClient()
+
+* * *
 
 ## Setar quais aplicações podem acessar a API
 
@@ -72,12 +76,13 @@
 	})
 
 
+* * *
 
 # Primeira rota do projeto 
-### Metodo get o qual retorna uma informação / view / etc
-### get, post, delete, put, patch
+Metodo get o qual retorna uma informação / view / etc
+get, post, delete, put, patch
 
-### Exemplo de Rota
+Exemplo de Rota
 
 	app.get('/', async ()=>{
 		const nomeQuery = await prisma.nomeTabela.findMany({
@@ -89,6 +94,8 @@
 		})
 		return nomeQuery
 	})
+
+* * *
 
 ## Responsavel por inicializar o servidor
 

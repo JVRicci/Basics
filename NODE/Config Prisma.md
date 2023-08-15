@@ -1,6 +1,6 @@
 
 ## Configuração inial do prisma para o editor
-### Pressionando o ctrl + t, no preferences.json, adcionar as seguintes linhas
+Pressionando o ctrl + t, no preferences.json, adcionar as seguintes linhas
 
 	"[prisma]": {
 	"editor.defaultFormatter": "Prisma.prisma"
@@ -43,7 +43,8 @@
 
 
 ### Preencher a base de dados com seed
-#### No link tem o código e instruções, para criação de um seed para preenchimento do bando ce dados
+
+No link tem o código e instruções, para criação de um seed para preenchimento do bando ce dados
 
 https://www.prisma.io/docs/guides/database/seed-database
 
