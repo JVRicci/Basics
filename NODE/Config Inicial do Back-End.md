@@ -29,7 +29,9 @@
 
 	npm i dayjs
 
+* * *
 
+# Criação do server, rotas e aplicações
 
 ### Criar pasta src dentro da pasta do projeto e Criar arquivo server.ts
 
@@ -40,9 +42,6 @@
 	"scripts": {
 		"dev":"tsx watch src/server.ts"
 	}
-
-
-
 
 # No arquivo server.ts
 ### Importar fastify (responsavel pelas rotas da API)
@@ -71,7 +70,6 @@
 	app.register(cors, {
 		origin: ['http:#localhost:3333']
 	})
-
 
 
 
