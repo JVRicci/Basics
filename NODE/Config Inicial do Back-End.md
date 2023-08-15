@@ -6,7 +6,7 @@
 
 	npm i fastify
 
-	npm i TypeScript -D
+	npm i typeScript -D
 
 	npx tsc --init
 
