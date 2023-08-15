@@ -16,6 +16,8 @@
 
 	npm i @prisma/client
 
+	npm i prisma-erd-generator
+
 
 ### Instalar cors (responsavel pela segurança. Indica quais serviços podem acessar a api)
 
