@@ -77,3 +77,48 @@
 	import { api } from '../lib/axios'
 
 #### A variavel api terá acesso a comandos como get, post, etc. *Ver na documentação*
+
+* * *
+
+### Lib para Icons em geral
+Essa lib tem icons de diversas libs 
+Para usala basta importar 'react-icons/NOME_DA_FONTE'
+
+	npm i react-icons
+
+* * *
+
+### Utilizando Styled Components
+Basta apenas instalar os seguintes pacotes
+
+	npm i styled-components
+	npm i @types/styled-components 
+
+A partir disso, é criado um arquivo global na pasta styles
+
+	import { createGlobalStyle } from "styled-components";
+
+
+	export default createGlobalStyle`
+		*{
+			margin:  0;
+			padding: 0;
+			outline: 0;
+			box-sizing: border-box; 
+		}
+
+		html, body, #root{
+			height:100%;    /*altura da página*/
+		}
+
+		body{
+			font-family: 'roboto', sans-serif;
+			background-color: #ecf1f8;
+			color: #333;
+			/* Suaviza a fonte, não deixando ela pixelizada */
+			-webkit-font-smoothing: atialiased !important;
+		}
+
+	`;
+
+Esse arquivo será aplicado a toda aplicação
