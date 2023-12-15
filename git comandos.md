@@ -95,14 +95,17 @@ Baixar todas as brancher do repositório remoto
 
     git fetch [nomeAlias]
 
-Baixar todas alterações da branch / repositório
+Mistura alterações do local e da branch 
 
     git merge [alias / branch]
 
 Envia alterações do local para o online
 
-    git pull [nomeBranch ou da origin]
-    git pull origin main
+    git push origin "[nomeDaBranch]"
+
+Baixa atualizações do repositorio online para o local
+
+    git pull
 
 Aplicar todos os commits da branch atual para alguma especifica
 
