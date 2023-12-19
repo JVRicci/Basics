@@ -75,7 +75,7 @@ Importar ZOD pra recepção / tratamento de variaveis
 
 	npm i zod
 
-Verificar [documentação]:https://zod.dev
+Verificar [documentação](https://zod.dev)
 
 # No arquivo server.ts
 Importar fastify (responsavel pelas rotas da API)
@@ -145,4 +145,4 @@ Para testes unitários e gerais
 
 	npm i vitest -D
 
-Verificar [documentação]:https://vitest.dev
+Verificar [documentação](https://vitest.dev)
