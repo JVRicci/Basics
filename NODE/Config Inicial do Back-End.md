@@ -46,6 +46,9 @@ Na linha dev, dentro de scripts, alterar a linha para
 	}
 
 * * *
+# Tratamento de variaveis 
+
+Importar ZOD pra recepção / tratamento de variaveis
 
 # No arquivo server.ts
 Importar fastify (responsavel pelas rotas da API)
