@@ -10,6 +10,30 @@
 
 	npx tsc --init
 
+### Execução de projetos TypeScript sem conversão
+
+Permite executar projetos TypeScript sem problemas, mas é recomendado para ambiente de desenvolvimento
+
+	npm i tsx -D
+
+Obs: permite o modo watch para rodar servers
+
+### Build de projetos TypeScript
+
+Converte o código TS em JS para ambiente de produção
+
+	npm i tsup -D
+
+Em package.json / scripts é necessário adcionar:
+
+	"build" : "tsup src",
+
+Após isso basta apenas rodar o comando para converter
+
+	npm run build
+
+* * *
+
 ### Instalar Prisma - ORM
 
 	npm i -D prisma
@@ -47,8 +71,11 @@ Na linha dev, dentro de scripts, alterar a linha para
 
 * * *
 # Tratamento de variaveis 
-
 Importar ZOD pra recepção / tratamento de variaveis
+
+	npm i zod
+
+Verificar [documentação]:https://zod.dev
 
 # No arquivo server.ts
 Importar fastify (responsavel pelas rotas da API)
@@ -110,3 +137,12 @@ Exemplo de Rota
 		console.log('Server Rodando')
 	})
 
+* * *
+
+### Lib Para testes 
+
+Para testes unitários e gerais 
+
+	npm i vitest -D
+
+Verificar [documentação]:https://vitest.dev
