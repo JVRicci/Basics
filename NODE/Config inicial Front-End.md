@@ -122,3 +122,19 @@ A partir disso, é criado um arquivo global na pasta styles
 	`;
 
 Esse arquivo será aplicado a toda aplicação
+
+* * *
+
+# Criação de id unicos
+
+No caso de react por exemplo, seu uso é interessante para criação de keys em maps()
+
+	npm i uuidv4
+
+Implementação / Importação
+
+	import { uuid } from "uuidv4"
+
+Função que gera UUID
+
+	uuid()
