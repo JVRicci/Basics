@@ -1,4 +1,4 @@
-## Comandos basicos 
+## Comandos basicos
 
 Verificar versão do Docker
 
@@ -18,12 +18,12 @@ Listar imagens locais do docker
 
 Listar containers
 
-    docker ps 
+    docker ps
     docker container ls
 
 Listar todos os containers (incluindo parados)
 
-    docker ps -a 
+    docker ps -a
     docker container ls -a
 
 Criar e iniciar um novo container a partir de uma imagem
@@ -72,6 +72,10 @@ Iniciar os serviços definidos em um arquivo Docker Compose
 
     docker-compose up
 
+Verbosa
+
+    --detach / -d - Indica  que irá rodar em background
+
 Parar e remover os serviços definidos em um arquivo Docker Compose
 
     docker-compose down
@@ -88,7 +92,7 @@ Executar um comando em um container de serviço em execução
 
     docker-compose exec <service_name> <command>
 
-## Volumes 
+## Volumes
 
 Criar um volume com nome
 
@@ -102,7 +106,7 @@ Listar volumes
 
     docker volume ls
 
-Remover um volume 
+Remover um volume
 
     docker volume rm <volume_name>
 
@@ -152,7 +156,7 @@ Exibir o uso de recursos em tempo real de um container
 
     docker stats <container_name/id>
 
-## Cleanup 
+## Cleanup
 
 Remover todos os containers parados, redes, e imagens não utilizadas
 
@@ -163,4 +167,3 @@ Remover todos os containersk imagens ou volumes parados
     docker container prune
     docker image prune
     docker volume prune
-
